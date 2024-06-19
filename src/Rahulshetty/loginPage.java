@@ -11,7 +11,7 @@ public class loginPage {
 	driver.get("https://rahulshettyacademy.com/locatorspractice/");
 	driver.manage().window().maximize();
 	System.out.println(driver.getTitle());
-	driver.findElement(By.id("inputUsername")).sendKeys("rahulshettyacademy");
+	driver.findElement(By.id("inputUsername")).sendKeys("rahul");
 	driver.findElement(By.name("inputPassword")).sendKeys("rahulshettyacademy");
 	driver.findElement(By.cssSelector("input[value='rmbrUsername']")).click();
 	driver.findElement(By.cssSelector("input[value='agreeTerms']")).click();
